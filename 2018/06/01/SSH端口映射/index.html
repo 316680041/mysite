@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="修改SSH配置文件，并重启SSH服务生效vi /etc/ssh/sshd_configX11Forwarding yesGatewayPorts yes 转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IPssh -C -f -N -g -R  33000:172.16.2.247:3389 root@15.40.59.1 -p 22 转发到本地：ssh">
+<meta name="description" content="修改SSH配置文件，并重启SSH服务生效。vi /etc/ssh/sshd_configX11Forwarding yesGatewayPorts yes 转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IPssh -C -f -N -g -R  33000:172.16.2.247:3389 root@15.40.59.1 -p 22 转发到本地：ss">
 <meta name="keywords" content="技术">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SSH映射端口">
 <meta property="og:url" content="https://saharaliu.github.io/2018/06/01/SSH端口映射/index.html">
 <meta property="og:site_name" content="Tips小站">
-<meta property="og:description" content="修改SSH配置文件，并重启SSH服务生效vi /etc/ssh/sshd_configX11Forwarding yesGatewayPorts yes 转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IPssh -C -f -N -g -R  33000:172.16.2.247:3389 root@15.40.59.1 -p 22 转发到本地：ssh">
+<meta property="og:description" content="修改SSH配置文件，并重启SSH服务生效。vi /etc/ssh/sshd_configX11Forwarding yesGatewayPorts yes 转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IPssh -C -f -N -g -R  33000:172.16.2.247:3389 root@15.40.59.1 -p 22 转发到本地：ss">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-01T15:05:41.264Z">
+<meta property="og:updated_time" content="2018-06-04T14:04:10.652Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SSH映射端口">
-<meta name="twitter:description" content="修改SSH配置文件，并重启SSH服务生效vi /etc/ssh/sshd_configX11Forwarding yesGatewayPorts yes 转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IPssh -C -f -N -g -R  33000:172.16.2.247:3389 root@15.40.59.1 -p 22 转发到本地：ssh">
+<meta name="twitter:description" content="修改SSH配置文件，并重启SSH服务生效。vi /etc/ssh/sshd_configX11Forwarding yesGatewayPorts yes 转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IPssh -C -f -N -g -R  33000:172.16.2.247:3389 root@15.40.59.1 -p 22 转发到本地：ss">
 
 
 
@@ -322,7 +322,7 @@
       
 
       
-        <p>修改SSH配置文件，并重启SSH服务生效<br>vi /etc/ssh/sshd_config<br>X11Forwarding yes<br>GatewayPorts yes</p>
+        <p>修改SSH配置文件，并重启SSH服务生效。<br>vi /etc/ssh/sshd_config<br>X11Forwarding yes<br>GatewayPorts yes</p>
 <p>转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IP<br>ssh -C -f -N -g -R  33000:172.16.2.247:3389 <a href="mailto:root@15.40.59.1" target="_blank" rel="noopener">root@15.40.59.1</a> -p 22</p>
 <p>转发到本地：ssh -C -f -N -g -R 本地端口:目标IP:目标端口 用户名@目标IP<br>ssh -C -f -N -g -R  33000:172.16.2.247:3389 <a href="mailto:root@15.40.59.1" target="_blank" rel="noopener">root@15.40.59.1</a> -p 22</p>
 

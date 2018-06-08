@@ -467,7 +467,7 @@
       
         
           
-            <p>修改SSH配置文件，并重启SSH服务生效<br>vi /etc/ssh/sshd_config<br>X11Forwarding yes<br>GatewayPorts yes</p>
+            <p>修改SSH配置文件，并重启SSH服务生效。<br>vi /etc/ssh/sshd_config<br>X11Forwarding yes<br>GatewayPorts yes</p>
 <p>转发到远端：ssh -C -f -N -g -L 本地端口:目标IP:目标端口 用户名@目标IP<br>ssh -C -f -N -g -R  33000:172.16.2.247:3389 <a href="mailto:root@15.40.59.1" target="_blank" rel="noopener">root@15.40.59.1</a> -p 22</p>
 <p>转发到本地：ssh -C -f -N -g -R 本地端口:目标IP:目标端口 用户名@目标IP<br>ssh -C -f -N -g -R  33000:172.16.2.247:3389 <a href="mailto:root@15.40.59.1" target="_blank" rel="noopener">root@15.40.59.1</a> -p 22</p>
 
